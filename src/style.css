@@ -1,0 +1,17 @@
+@keyframes slide {
+    0% {
+      transform: translateX(5%);
+    }
+    100% {
+      transform: translateX(-86%);
+    }
+  }
+  .slide-partners {
+    display: flex;
+    animation: slide 20s linear infinite;
+    /* transform: translateX(-86%); */
+
+  }
+
+
+  
